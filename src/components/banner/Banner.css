@@ -1,0 +1,32 @@
+.banner {
+  min-height: 62.5vh;
+  position: relative;
+  margin-bottom: -36vh;
+  z-index: 1;
+  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, color-stop(60%, black), to(rgba(0, 0, 0, 0)));
+  -webkit-mask-image: linear-gradient(to bottom, black 60%, rgba(0, 0, 0, 0));
+          mask-image: -webkit-gradient(linear, left top, left bottom, color-stop(60%, black), to(rgba(0, 0, 0, 0)));
+          mask-image: linear-gradient(to bottom, black 60%, rgba(0, 0, 0, 0));
+}
+
+.owl-theme .owl-nav [class*="owl-"] {
+  background-color: transparent;
+  color: black;
+  font-size: 3em;
+  position: absolute;
+  top: 10%;
+}
+
+.owl-carousel .owl-nav .owl-next {
+  right: 2%;
+}
+
+.owl-carousel .owl-nav .owl-prev {
+  left: 2%;
+}
+
+.owl-theme .owl-nav [class*="owl-"]:hover {
+  background: none;
+  color: black;
+}
+/*# sourceMappingURL=Banner.css.map */

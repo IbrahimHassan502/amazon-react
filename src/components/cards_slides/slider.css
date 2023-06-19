@@ -1,0 +1,111 @@
+.slider-container {
+  background-color: #fff;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.slider-container .owl-carousel .owl-item img {
+  width: auto;
+  max-width: 100%;
+  margin: auto;
+}
+
+.slider-container .owl-carousel .owl-stage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.slider-container .owl-theme .owl-nav [class*="owl-"] {
+  height: 30%;
+  background: #fff;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: all 0.7s ease 0.5s;
+  opacity: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.slider-container .owl-carousel .owl-nav .owl-next {
+  right: 0;
+}
+
+.slider-container .owl-carousel .owl-nav .owl-prev {
+  left: 0;
+}
+
+.slider-container:hover .owl-theme .owl-nav [class*="owl-"] {
+  opacity: 1;
+}
+
+/* .slider-container .owl-carousel .owl-stage-outer {
+  overflow-x: visible;
+     background-color: rgba(170, 170, 170, 0);
+     -webkit-background-clip: text;
+     transition: background-color 0.7s ease 0.5s;
+
+    &::-webkit-scrollbar {
+      height: 7px;
+    }
+
+    // Track
+    &::-webkit-scrollbar-track {
+      background: transparent;
+      border-radius: 20px;
+    }
+
+    // Handle
+    &::-webkit-scrollbar-thumb {
+      border-radius: 20px;
+      background-color: inherit;
+    }
+
+    // Handle on hover
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.18);
+    }
+} */
+
+.owl-carousel .icon-container {
+  text-align: center;
+}
+
+.owl-carousel .icon-container .icon {
+  color: #ff7600;
+  margin-bottom: 0.1em;
+  font-size: 6em;
+  position: relative;
+}
+
+.owl-carousel .icon-container .icon::after {
+  display: block;
+  content: "";
+  width: 1.8em;
+  height: 1.8em;
+  background: #fafafa;
+  border-radius: 50%;
+  top: 65%;
+  left: 50%;
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.owl-carousel .icon-container a {
+  color: black;
+  text-decoration: none !important;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.owl-carousel .icon-container .icon-title {
+  background: #fff;
+}
+/*# sourceMappingURL=slider.css.map */
